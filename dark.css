@@ -1,0 +1,219 @@
+:root {
+      --light-background-color: #ffffff; /* light mode background color */
+      --light-text-color: #333333; /* light mode text color */
+      --dark-background-color: #1a1a1a; /* dark mode background color */
+      --dark-text-color: #ffffff; /* dark mode text color */
+    }
+
+    .header.dark-mode {
+      background-color: rgb(18, 18, 18);
+      color: var(--dark-text-color);
+	  transition: all 0.5s;
+	  z-index: 997;
+	  height: 78px;
+	  border-bottom: 1px solid #000;	  
+    }
+	
+	.header.sticked.dark-mode {
+	  background-color: #22303c;
+      border-color: #fff;
+	  border-color: #eee;
+	}
+	
+	.section-header.dark-mode p {
+		color: var(--dark-text-color);
+	}
+	
+	.section-header.dark-mode p span {
+		color: red;
+	}
+	
+	.section-bg.dark-mode {
+	  background-color: rgb(18, 18, 18);
+      color: var(--dark-text-color);
+	}
+	
+	.green.dark-mode {
+	  color: #F0F0F0;
+	}
+	
+	.lang.dark-mode {
+	  color: #F0F0F0;
+	}
+	
+	.dropdown-content.dark-mode {
+	  background-color: #355E3B;
+	}
+	
+	.dropdown-content.dark-mode a {
+	  color: #F0F0F0;
+	  border-bottom: 1px solid #00A36C;
+	}
+	
+	.dropdown-content.dark-mode a:hover {
+	  color: black;
+	  border-bottom: 1px solid #00A36C;
+	}
+	
+	.navbar.dark-mode ul {
+	  background-color: #355E3B;
+	}
+	
+	.navbar.dark-mode a, .navbar.dark-mode a:focus {
+	  color: #F0F0F0;
+	  border-bottom: 2px solid rgba(53, 94, 59, 0.8);
+	}
+	
+	.navbar.dark-mode a:hover, .navbar.dark-mode li:hover>a {
+	  color: #7CFC00;
+	  border-bottom: 2px solid rgba(53, 94, 59, 0.8);
+	}
+	
+	.navbar.dark-mode .active,
+	.navbar.dark-mode .active:focus {
+	  color: #7CFC00;
+      border-color: #00A36C;
+	}
+	
+	.navbar .dropdown.dark-mode ul,
+	.navbar .dropdown.dark-mode .dropdown ul {
+	  border: 1px solid #008000;
+	}
+	
+	.mobile-nav-show.dark-mode {
+	  color: #FFFFFF;
+	}
+	
+	.mobile-nav-hide.dark-mode {
+	  color: #FFFFFF;
+	}
+	
+	.mobile-nav-active.dark-mode .navbar:before {
+	  background: rgba(50, 50, 50, 0.8);
+	}
+	
+	.theme-selector.dark-mode {
+	  color: #F0F0F0;
+	}
+	
+	.theme-selector.dark-mode:hover {
+	  Color: #fff;
+	  background: #478778;
+	}
+	
+	.theme-selector.dark-mode option {
+	  color: #FFFFFF;
+	  background: #478778;
+	}
+	
+	.theme-selector.dark-mode option:hover {
+	  color: #FFFFFF;
+	  background: #000;
+	}
+	
+	.theme-selector.dark-mode option:checked {
+	  color: #fff;
+	  background: #000;
+	}
+	
+	.hero.dark-mode p {
+	  color: #F0F0F0;
+	}
+	
+	.hero.dark-mode h2 {
+	  color: #FAFAFA;
+	}
+	
+	.about.dark-mode {
+	  background-color: rgb(40, 40, 40);
+      color: var(--dark-text-color);
+	}
+	
+	.features .feture-tabs .nav-link.dark-mode {
+	  color: #97da70;
+	}
+	
+	.features .feture-tabs .nav-link.dark-mode:hover {
+	  Color: white;
+	  background: rgba(18, 206, 18, 0.8);
+	}
+
+	.features .feture-tabs .nav-link.dark-mode.active {
+	  color: #32CD32;
+	  border-bottom: 3px solid rgba(50, 205, 50, 1.8);
+	}
+
+	.features .feture-tabs .nav-link.dark-mode.active:hover {
+	  Color: white;
+	  background: rgba(18, 206, 18, 0.8);
+	}
+	
+	.features .feture-tabs .tab-content.dark-mode h4 {
+	  color: #93f336;
+	}
+	
+	.features .feture-tabs .tab-content.dark-mode i {
+	  color: #93f336;
+	}
+	
+	.faq .faq-list.dark-mode li {
+	  background-color: rgb(40, 40, 40);
+	}
+	
+	.faq .faq-list.dark-mode p {
+	  color: #F0F0F0;
+	}
+	
+	.faq .faq-list.dark-mode a {
+	  color: #4bd963;
+	}
+	
+	.faq .faq-list.dark-mode a:hover {
+	  color: #0BFA01;
+	}
+	
+	.faq .faq-list.dark-mode a.collapsed {
+	  color: #4bd963;
+	}
+
+	.faq .faq-list.dark-mode a.collapsed:hover {
+	  color: #0BFA01;
+	}
+	
+	.gallery.dark-mode {
+	  background-color: rgb(40, 40, 40);
+	}
+	
+	.contact.dark-mode {
+	  background-color: rgb(18, 18, 18);
+	}
+	
+	.contact .info-item.dark-mode {
+	  background-color: rgb(40, 40, 40);
+	}
+	
+	.contact .info-item.dark-mode a {
+	  color: var(--dark-text-color);
+	}
+	
+	.contact .info-item.dark-mode a:hover {
+	  color: #0BDA51;
+	  text-decoration: none;
+	}
+	
+	.contact .info-item.dark-mode div {
+	  color: var(--dark-text-color);
+	}
+	
+	.features .feture-tabs .dark-mode h3 {
+	  color: var(--dark-text-color);
+	  background-color: rgb(40, 40, 40);
+	}
+	
+	.footer.dark-mode {
+	  background-color: #2c4c3b;
+	}
+
+    label {
+      margin-right: 10px;
+    }

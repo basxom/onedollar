@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>One Dollar</title>
+  <meta content="one dollar may be too little or nothing for you، but it's too much for me, learn more in my website." name="description">
+  <meta content="one dollar, onedollar, One-Dollar, How to be Millionaire, Millionaire, How to be Billionaire، Billionaire, donation, charity, helping others, gratitude, 1 dollar, 1dollar, dollar, dollars," name="keywords">
+  
+  <!-- Kurdish Meta Tags -->
+	<meta content="لەوانەیە یەک دۆلار زۆر کەم بێت یان هیچ نەبێت بۆ تۆ، بەڵام بۆ من بڕێکی زۆرە." name="description">
+	<meta content="یەک دۆڵار, پێدان, خۆشەویستی, یارمەتی, گرنگی، چۆن ببیت بەملیۆنێر، ملیۆنێر، ملیاردێر، چۆن ببیت بە ملیاردێر، بەخشین، یارمەتیدانی ئەوانی تر، ملیارنێر، خێرخوازی،" name="keywords">
+
+  <!-- Arabic Meta Tags -->
+	<meta content="قد يكون دولار واحد قليلا جدا أو لا شيء بالنسبة لك ، لكنه كثير جدا بالنسبة لي." name="description">
+	<meta content="دولار واحد, تبرع, صدقة, مساعدة الآخرين, الامتنان، واحد دولار، اعطاء, حب, مساعدة, كيف تكون ملياردير, كيف تكون مليارديرا, فاعل خير, مليونير, " name="keywords">
+
+  <!-- Favicons -->
+  <link href="icon.png" rel="icon">
+  <link href="images2.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Amatic+SC:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/css/glightbox.min.css" integrity="sha512-T+KoG3fbDoSnlgEXFQqwcTC9AdkFIxhBlmoaFqYaIjq2ShhNwNao9AKaLUPMfwiBPL0ScxAtc+UYbHAgvd+sjQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+	
+
+  <!-- Vendor CSS Files -->
+  <link href="bootstrap.min.css" rel="stylesheet">
+  <!-- <link href="bootstrap-icons.css" rel="stylesheet">
+  <link href="aos.css" rel="stylesheet">
+  <link href="glightbox.min.css" rel="stylesheet">
+  <link href="swiper-bundle.min.css" rel="stylesheet"> -->
+
+  <!-- Template Main CSS File -->
+  <link href="main.css" rel="stylesheet">
+  <link href="dark.css" rel="stylesheet">
+  
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <nav id="navbar" class="navbar navbar-rtl">
+        <ul>
+          <li><a href="#hero"><span id="greeting">Home</span></a></li>
+          <li><a href="#asan"><span id="about1">A Story</a></span></li>
+		  <li><a href="#money"><span id="sendmoney1">Send the money</a></span></li>
+          <li><a href="#gallery"><span id="gallery1">Gallery</a></span></li>
+          <li><a href="#contact"><span id="contact1">Contact</a></span></li>
+		  <li><a href="#"><label for="theme-selector"><span id="theme1">Theme</span></label>
+				<select id="theme-selector" class="theme-selector">
+				 <option value="system">System</option>
+				 <option value="dark">Dark</option>
+				 <option value="light">Light</option>
+				</select> </a>
+		  </li>
+        </ul>
+      </nav><!-- End .navbar -->
+
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide mobile-nav-hide-rtl d-none bi bi-x"></i>
+	  
+	  <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1><span id="onedollar">One Dollar</span></h1>
+      </a>
+	  
+	  <div id="languageSwitcher">
+        
+		<!-- Globe Icon -->
+		<span id="chan" class="lang"> EN </span>
+        <i class="bi bi-globe green"></i>
+		
+		<!-- Language Dropdown Content -->
+        <div id="languageDropdown" class="dropdown-content">
+          <a href="#" onclick="changeLanguage('en')"><span id="gl">English</span></a>
+          <a href="#" onclick="changeLanguage('ku')"><span id="dish">Kurdish</span></a>
+		  <a href="#" onclick="changeLanguage('ar')"><span id="abic">Arabic</span></a>
+        </div>
+      </div>
+	  
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero d-flex align-items-center section-bg">
+    <div class="container">
+      <div class="row justify-content-between gy-5">
+        <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start">
+          <h2 id="wel" data-aos="fade-up">Welcome</h2>
+          <p id="zar" data-aos="fade-up" data-aos-delay="100">one dollar may be too little or nothing for you، but it's too much for me.</p>
+           <div class="text-center text-lg-start">
+              <a href="#asan" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                <span id="keep">keep reading</span>
+              </a>
+           </div>
+        </div>
+        <div class="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
+          <img src="only-one.png" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="300">
+        </div>
+      </div>
+    </div>
+  </section><!-- End Hero Section -->
+
+  <main id="main">
+  
+  <!-- Main content section -->
+
+    <!-- ======= Story Section ======= -->
+    <section id="asan" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2 id="stor">A Story</h2>
+          <p><span id="hes" style="color: #fff; margin: 0; font-size: 40px; font-weight: 400; font-family: var(--font-primary);">A story about</span> <span id="th">Helping & Thanking</span></p>
+        </div>
+
+          <div class="row gy-4 gallery-slider swiper">
+            <div class="col-lg-7 position-relative about-img" data-aos="fade-up" data-aos-delay="150">
+			  <div class="row1">
+				<div class="column1 swiper-slide">
+				  <div class="content1">
+					<a class="glightbox" data-gallery="images-gallery" href="12.png">
+					 <img src="12.png" alt="Mountains" style="width:100%">
+					</a>
+				  </div>
+				</div>
+				<div class="column1 swiper-slide">
+				  <div class="content1">
+					<a class="glightbox" data-gallery="images-gallery" href="14.png">
+					 <img src="14.png" alt="Mountains" style="width:100%">
+					</a>
+				  </div>
+				</div>
+				<div class="column1 swiper-slide" style="display:none">
+				  <div class="content1">
+					<a class="glightbox" data-gallery="images-gallery" href="13.png"></a>
+				  </div>
+				</div>
+				<div class="column1 swiper-slide" style="display:none">
+				  <div class="content1">
+					<a class="glightbox" data-gallery="images-gallery" href="16.png"></a>
+				  </div>
+				</div>
+			  </div>
+			  <!-- END GRID -->
+			  
+				<div class="swiper-slide">
+				  <a class="glightbox" data-gallery="images-gallery" href="15.png">
+					<div class="content1">
+					 <img src="15.png" alt="Mountains" style="width:100%; height:250px">
+					</div>
+				  </a>
+				</div>
+			</div>
+          <div class="col-lg-5 d-flex align-items-start" data-aos="fade-up" data-aos-delay="300">
+            <div class="content ps-0 ps-lg-5">
+              <p  id="someone" class="times-new-roman size">
+                One day، Someone saw a man who had a child with his neighbors، and he knew that he had kidnapped him. That's why he took the child from the kidnapper and took him to their neighbor's house،
+				and the neighbor said thank you، And then the rescuer came up with an idea، and he said to his neighbors، "Don't thank me، instead of thanking me، you can help three other people، and tell the three people to help three others،
+				so the world will change and it's going to get better."، So we have to help each other، and instead of thanking، say to help others.
+              </p>
+              <p id="north" class="size">
+                So، a dollar for you may be nothing or too little، but that's a lot to me، so I'm just asking you for one dollar،
+				and if you give me more، I'll appreciate it، and maybe one day I'll pay you back in a larger amount.
+				so If you decide to send me the money، it is explained below how to send it to me.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Features Section ======= -->
+    <section id="money" class="features section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2 id="payment">payment method</h2>
+          <p><span id="youcan" style="color: #fff; margin: 0; font-size: 40px; font-weight: 400; font-family: var(--font-primary);">you can send</span> <span id="moneyvia">money via</span></p>
+        </div>
+
+        <!-- Feature Tabs -->
+        <div class="row feture-tabs" data-aos="fade-up">
+          <div class="col-lg-6">
+            <h3 id="detail">you can send money through national and international, here is the details:</h3>
+
+            <!-- Tabs -->
+            <ul class="nav nav-pills mb-3">
+              <li>
+                <a id="viainter" class="nav-link active" data-bs-toggle="pill" href="#tab1">Send via international</a>
+              </li>
+              <li>
+                <a id="nation" class="nav-link" data-bs-toggle="pill" href="#tab2">Send via national</a>
+              </li>
+            </ul><!-- End Tabs -->
+
+            <!-- Tab Content -->
+            <div class="tab-content">
+
+              <div class="tab-pane fade show active" id="tab1">
+                 <div class="d-flex align-items-center mb-3">
+				   <h4 id="info">Bank ACCOUNT INFORMATION:-</h4>
+				 </div>
+				 <p  class="lh-lg copy-container" style="letter-spacing: 1px;" dir="ltr">
+					
+					<span id="abdul">ACCOUNT NAME:-</span> <span class="accountname">ABDULRAHMAN AZEEZ ALO ALO</span>&nbsp;&nbsp;&nbsp;
+					   <a href="#" class="copy-button" onclick="copyText('accountname'); return false;"><span class="cop">Copy</span></a><br>
+					
+				    IBAN:- <span class="iban">IQ13 FIQB 0040 5409 8820 003</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					   <a href="#" class="copy-button" onclick="copyText('iban'); return false;"><span class="cop">Copy</span></a><br>
+					
+				    BIC:- <span class="bic">FIQ BIQ BA0 04</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					   <a href="#" class="copy-button" onclick="copyText('bic'); return false;"><span class="cop">Copy</span></a><br>
+					
+					<span id="diary">Intermediary Bank:-</span> <span class="currency">Raiffeisen Bank international</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					   <a href="#" class="copy-button" onclick="copyText('currency'); return false;"><span class="cop">Copy</span></a><br>
+					
+					<span class="sft">swift:-</span> </span> <span class="bankname">RZBAATWW</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					   <a href="#" class="copy-button" onclick="copyText('bankname'); return false;"><span class="cop">Copy</span></a><br>
+					
+					<span id="corbank">Corresponding Bank:-</span> <span class="bankname">Aktifbank</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					   <a href="#" class="copy-button" onclick="copyText('bankname'); return false;"><span class="cop">Copy</span></a><br>
+					
+					A/C :- <span class="bankname">70-55.0720680</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					   <a href="#" class="copy-button" onclick="copyText('bankname'); return false;"><span class="cop">Copy</span></a><br>
+					
+					<span class="sft">swift:-</span> <span class="bankname">CAYTTRIS</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					   <a href="#" class="copy-button" onclick="copyText('bankname'); return false;"><span class="cop">Copy</span></a><br>
+					
+					<span id="benefbank">Beneficiary Bank:-</span> <span class="bankname">First Iraqi Bank</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					   <a href="#" class="copy-button" onclick="copyText('bankname'); return false;"><span class="cop">Copy</span></a><br>
+					
+					IBAN no:- <span class="bankname">TR7600143000000000 12037564</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					   <a href="#" class="copy-button" onclick="copyText('bankname'); return false;"><span class="cop">Copy</span></a><br>
+					
+					
+					<span class="sft">swift:-</span> <span class="bankname">FIQBIQBAXXX</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					   <a href="#" class="copy-button" onclick="copyText('bankname'); return false;"><span class="cop">Copy</span></a><br>
+					
+					
+					   <a href="#" class="copy-button1" onclick="copyAll(); return false;"><span id="allcopy">Copy All</span></a>
+				 </p>
+              </div><!-- End Tab 1 Content -->
+
+              <div class="tab-pane fade show" id="tab2">
+                <div class="d-flex align-items-center" style="padding-bottom:20px">
+                  <i class="bi bi-check2"></i>
+                  <h4 id="krd">You can send money via these accounts:-</h4>
+                </div>
+
+				<div class="faq">
+				  <div class="faq-list">
+				  
+					<ul>
+					  <li data-aos="fade-up">
+						<a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">
+						  <span id="afib">FIB Bank Account</span>
+						 <i class="bi bi-chevron-down icon-show"></i>
+						 <i class="bi bi-chevron-up icon-close"></i>
+						</a>
+						<div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+						  <p>
+							<span id="phno">Phone No:-</span> <span dir="ltr">+964 <span class="phoneno">750 193 2324</span></span>&nbsp;&nbsp;&nbsp;
+							<a href="#" class="cop" style="margin-top: 0px; font-size: 15px; display: inline-block; padding: 0px" onclick="copyText('phoneno'); return false;">Copy</a>
+						  </p>
+						</div>
+					  </li>
+
+					  <li data-aos="fade-up" data-aos-delay="100">
+						<a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">
+						  <span id="QIcard">QI Card Account</span>
+						 <i class="bi bi-chevron-down icon-show"></i>
+						 <i class="bi bi-chevron-up icon-close"></i>
+						</a>
+						<div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+						  <p>
+							<span id="comsoon">Coming Soon.</span>
+						  </p>
+						</div>
+					  </li>
+
+					  <li data-aos="fade-up" data-aos-delay="200">
+						<a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">
+						  <span id="kt">Korek Telecome</span>
+						 <i class="bi bi-chevron-down icon-show"></i>
+						 <i class="bi bi-chevron-up icon-close"></i>
+						</a>
+						<div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+						  <p>
+							 <span id="send-more">You can send more to this number:<br><span dir="ltr">( +964 750 193 2324 ).</span><br>
+							 or You can send just 1000 IQD direct to this number.<br>
+							 <p style="display: none"><span class="phonenumber">0750 193 2324</span></p>
+							 <a href="tel:*215*07501932324*1000#" style="display: inline; font-size: 18px;"><span id="porsh">send 1000</span></a>
+							 <a href="#" onclick="copyText('phonenumber'); return false;" style="display: inline; font-size: 18px;"><span id="rose">copy number</span></a>
+						  </p>
+						</div>
+					  </li>
+					</ul>
+					
+				  </div>
+				</div> <!-- End Frequently Asked Questions Section -->
+              </div><!-- End Tab 2 Content -->
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+            <img src="16.png" class="img-fluid" style="width:500px; height:450px; border-radius: 50%;" alt="">
+          </div>
+
+        </div><!-- End Feature Tabs -->
+
+      </div>
+    </section><!-- End Features Section -->
+
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery" class="gallery section-bg" dir="ltr">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2 id="hulk">gallery</h2>
+          <p><span id="pshk" style="color: #fff; margin: 0; font-size: 40px; font-weight: 400; font-family: var(--font-primary);">Check</span> <span id="dog">A Gallery</span></p>
+        </div>
+
+        <div class="gallery-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="images.png"><img src="images.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="13.png"><img src="13.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="14.png"><img src="14.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="15.png"><img src="15.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="16.png"><img src="16.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="12.png"><img src="12.png" class="img-fluid" alt=""></a></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Gallery Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2 id="lion">Contact</h2>
+          <p><span id="sher" style="color: #fff; margin: 0; font-size: 40px; font-weight: 400; font-family: var(--font-primary);">To know more</span> <span id="kal">Contact Me</span></p>
+        </div>
+
+        <div class="mb-3">
+          <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1604.3611986714811!2d44.05212031121824!3d36.16407106859467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x400725965e4c3861%3A0x3d61b58c1fd11c01!2z2K_ZiNqp2KfZhtuMINio24zZhNin2YQg2Yfbldix2YjYqtuM!5e0!3m2!1sen!2siq!4v1706824104658!5m2!1sen!2siq" frameborder="0" allowfullscreen></iframe>
+        </div><!-- End Google Maps -->
+
+        <div class="row gy-4">
+
+          <div class="col-md-6">
+            <div class="info-item  d-flex align-items-center">
+              <i class="icon bi bi-geo-alt-fill flex-shrink-0"></i>
+              <div>
+                <h3 class="myadd">Address</h3>
+                <p>
+				 <a href="https://maps.app.goo.gl/733NuH3htNSbSY546"> <span class="plan">Erbil - Kurdistan / Iraq</span> </a> 
+				</p>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-md-6">
+            <div class="info-item d-flex align-items-center">
+              <i class="icon bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3 id="moon">Email</h3>
+                <p>
+				 <a href="mailto: a94944915@gmail.com"> <span class="sun">a94944915@gmail.com</span> </a>
+				</p>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-md-6">
+            <div class="info-item  d-flex align-items-center">
+              <i class="icon bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3 id="hill">Call</h3>
+                <p>
+				 <a href="tel:+9647501932324" dir="ltr"> <span class="star">+964 750 193 2324</span> </a>
+				</p>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+
+        </div>
+		
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="container">
+      <div class="row gy-3">
+        <div class="col-lg-3 col-md-6 footer-links d-flex">
+          <i class="bi bi-geo-alt icon icon-rtl"></i>
+          <div>
+            <h4 class="myadd">Address</h4>
+            <p>
+              <a href="https://maps.app.goo.gl/733NuH3htNSbSY546"> <span class="plan">Erbil, Kurdistan - Iraq</span> </a>
+            </p>
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links d-flex">
+          <i class="bi bi-telephone icon icon-rtl"></i>
+          <div>
+            <h4 id="duck">Contact me</h4>
+            <p>
+              <strong id="water">Phone:</strong> <a href="tel:+9647501932324"> <span class="star" dir="ltr">+964 750 193 2324</span> </a> <br>
+              <strong id="fire">Email:</strong> <a href="mailto: a94944915@gmail.com"> <span class="sun">a94944915@gmail.com</span></a> <br>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links d-flex">
+          <i class="bi bi-clock icon icon-rtl"></i>
+          <div>
+            <h4 id="oh">Opening Hours</h4>
+            <p>
+              <strong id="ava">Everyday: </strong> <span id="noon">24 Hours</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4 id="follow">Sharing the website</h4>
+          <div class="social-links d-flex">
+            <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fone-dollar.free.nf" class="twitter" title="Twitter" target="blank"><i class="bi bi-twitter"></i></a>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fone-dollar.free.nf" class="facebook" title="Facebook" target="blank"><i class="bi bi-facebook"></i></a>
+            <!-- <a href="#" class="instagram"><i class="bi bi-instagram"></i></a> -->
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        <i class="bi bi-c-circle"></i> <span id="right">Copyright</span> <strong><span id="banana">One-Dollar</span></strong><span id="service">. All Rights Reserved</span>
+      </div>
+      <div class="credits">
+        <span id="monkey">Designed by</span> <a href="mailto: a94944915@gmail.com"> <span id="jack">Someone</span> </a>
+      </div>
+    </div>
+
+  </footer><!-- End Footer -->
+  <!-- End Footer -->
+
+  <a href="#" class="scroll-top scroll-top-rtl d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+
+
+  <script src="https://raw.githubusercontent.com/basxom/JavaScript/main/bootstrap.bundle.min.js" type="text/JavaScript"></script>
+  <script src="https://raw.githubusercontent.com/basxom/JavaScript/main/aos.js" type="text/JavaScript"></script>
+  <script src="https://raw.githubusercontent.com/basxom/JavaScript/main/glightbox.min.js" type="text/JavaScript"></script>
+  <script src="https://raw.githubusercontent.com/basxom/JavaScript/main/swiper-bundle.min.js" type="text/JavaScript"></script>
+  
+  <script src="https://raw.githubusercontent.com/basxom/JavaScript/main/main.js" type="text/JavaScript"></script>
+  <script src="https://raw.githubusercontent.com/basxom/JavaScript/main/translate.js" type="text/JavaScript"></script>
+  <script src="https://raw.githubusercontent.com/basxom/JavaScript/main/darkjava.js" type="text/JavaScript"></script>
+  <script src="https://raw.githubusercontent.com/basxom/JavaScript/main/copy.js" type="text/JavaScript"></script>
+  
+  
+  
+  <!-- Vendor JS Files -->
+  <script src="bootstrap.bundle.min.js" type="text/JavaScript"></script>
+  <script src="aos.js" type="text/JavaScript"></script>
+  <script src="glightbox.min.js" type="text/JavaScript"></script>
+  <script src="swiper-bundle.min.js" type="text/JavaScript"></script>
+
+  <!-- Template Main JS File -->
+  <script src="main.js" type="text/JavaScript"></script>
+  <script src="translate.js" type="text/JavaScript"></script>
+  <script src="darkjava.js" type="text/JavaScript"></script>
+  <script src="copy.js" type="text/JavaScript"></script>
+
+</body>
+
+</html>
